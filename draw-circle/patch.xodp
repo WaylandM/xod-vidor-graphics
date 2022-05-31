@@ -1,0 +1,113 @@
+{
+  "description": "Draw a circle.",
+  "nodes": [
+    {
+      "id": "rkKrO14O5",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A Vidor graphics device.",
+      "id": "H1ZIukVdc",
+      "label": "GFX",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-gfx-device"
+    },
+    {
+      "description": "Update",
+      "id": "BJJw_JE_q",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Alpha compositing. Takes a value from 0 to 1.",
+      "id": "rkqwOJNOc",
+      "label": "Alpha",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Color of circle.",
+      "id": "B1ds_J4d5",
+      "label": "Color",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/color/input-color"
+    },
+    {
+      "description": "Centre-point x coordinate.",
+      "id": "B1VJFJV_9",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Centre-point y coordinate.",
+      "id": "HkdktyNOq",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "HJ4WFkNu9",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Radius of circle (pixels).",
+      "id": "ry36o1Ed9",
+      "label": "R",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "TRUE to fill circle with colour, FALSE to draw outline only.",
+      "id": "B1kmzWE_c",
+      "label": "Fill",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    }
+  ]
+}

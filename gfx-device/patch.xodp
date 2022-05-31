@@ -1,0 +1,25 @@
+{
+  "description": "A Vidor graphics device.",
+  "nodes": [
+    {
+      "id": "SycZHyEu9",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A GFX device.",
+      "id": "H12jDy4O9",
+      "label": "GFX",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
+}

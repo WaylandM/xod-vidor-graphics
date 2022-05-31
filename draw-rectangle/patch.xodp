@@ -1,0 +1,124 @@
+{
+  "description": "Draw a rectangle.",
+  "nodes": [
+    {
+      "id": "S1td1G4_5",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A Vidor graphics device.",
+      "id": "B1ltO1z4u9",
+      "label": "GFX",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-gfx-device"
+    },
+    {
+      "description": "Update",
+      "id": "rJZtu1GEd9",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Alpha compositing. Takes a value from 0 to 1.",
+      "id": "SyftdkfV_9",
+      "label": "Alpha",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Color of rectangle.",
+      "id": "r17Kd1MV_c",
+      "label": "Color",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/color/input-color"
+    },
+    {
+      "description": "Top left corner x coordinate.",
+      "id": "BJ4tuJG4u5",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Top left corner y coordinate.",
+      "id": "SJrY_kf4Oc",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "B1LYOJzEu9",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "TRUE to fill rectangle with colour, FALSE to draw outline only.",
+      "id": "HJdY_1zV_c",
+      "label": "Fill",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Width in pixels.",
+      "id": "r1PsJzN_5",
+      "label": "W",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Height in pixels.",
+      "id": "Bkcokf4u9",
+      "label": "H",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
+}
