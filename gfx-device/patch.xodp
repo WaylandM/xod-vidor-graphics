@@ -1,5 +1,5 @@
 {
-  "description": "A Vidor graphics device.",
+  "description": "A Vidor graphics device. Display resolution: 640 x 480 pixels.",
   "nodes": [
     {
       "id": "SycZHyEu9",

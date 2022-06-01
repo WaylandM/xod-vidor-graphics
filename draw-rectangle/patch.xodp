@@ -33,7 +33,10 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "Alpha compositing. Takes a value from 0 to 1.",
+      "boundLiterals": {
+        "__out__": "255"
+      },
+      "description": "Alpha compositing. Takes a value from 0 to 255.",
       "id": "SyftdkfV_9",
       "label": "Alpha",
       "position": {

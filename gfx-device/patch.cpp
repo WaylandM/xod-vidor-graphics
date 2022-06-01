@@ -15,12 +15,12 @@ node {
         if (!isSettingUp())
             return;
 
-        if (!FPGA->begin()) {
+        if (!FPGA.begin()) {
             raiseError(ctx);
             return;
         }
 
-        emitValue<output_Prefs>(ctx, &gfx);
+        emitValue<output_GFX>(ctx, &gfx);
     }
 
 }

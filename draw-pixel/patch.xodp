@@ -1,2 +1,93 @@
 {
+  "nodes": [
+    {
+      "id": "BJZePn4_q",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A Vidor graphics device.",
+      "id": "BkxZePh4dc",
+      "label": "GFX",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-gfx-device"
+    },
+    {
+      "description": "Update",
+      "id": "SybblwhN_q",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "255"
+      },
+      "description": "Alpha compositing. Takes a value from 0 to 255.",
+      "id": "BJz-lPn4d5",
+      "label": "Alpha",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Color of pixel.",
+      "id": "rkm-gDhVuq",
+      "label": "Color",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/color/input-color"
+    },
+    {
+      "description": "X coordinate.",
+      "id": "ryN-lw24_q",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Y coordinate.",
+      "id": "BkrZxvnVuq",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "HkIbeDn4Oq",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }

@@ -1,2 +1,126 @@
 {
+  "nodes": [
+    {
+      "id": "rJnswhNd5",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A Vidor graphics device.",
+      "id": "ByxniPhNOc",
+      "label": "GFX",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-gfx-device"
+    },
+    {
+      "description": "Update",
+      "id": "Sy-hjwhVu5",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "255"
+      },
+      "description": "Alpha compositing. Takes a value from 0 to 255.",
+      "id": "BJfhsP2VOc",
+      "label": "Alpha",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Color of rectangle.",
+      "id": "rkm3iD3VOq",
+      "label": "Color",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/color/input-color"
+    },
+    {
+      "description": "X coordinate.",
+      "id": "SJV3sv34Oc",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Y coordinate.",
+      "id": "HJH3sP3V_q",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "SkLhsDhNuc",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Font size.",
+      "id": "Skdhov2Nu9",
+      "label": "Size",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Font index.",
+      "id": "S1KnjvnVd5",
+      "label": "Font",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Text string. Special characters can be specified using octal index. For example the degree symbol \"°\" (decimal code 248) can be specified using \"\\370\".",
+      "id": "rJIMOnE_9",
+      "label": "Text",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    }
+  ]
 }
