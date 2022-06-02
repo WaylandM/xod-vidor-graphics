@@ -2,5 +2,5 @@
   "description": "Graphics library for the Arduino MKR Vidor 4000. Wraps https://github.com/vidor-libraries/VidorGraphics.",
   "license": "LGPL-2.1",
   "name": "vidor-graphics",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
