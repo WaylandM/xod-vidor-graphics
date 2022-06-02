@@ -10,7 +10,7 @@ node {
         auto gfx = getValue<input_GFX>(ctx);
         auto color = getValue<input_Color>(ctx);
         uint32_t color32 = gfx->Color(color.r, color.g, color.b);
-        if (getValue<input_Fill){
+        if (getValue<input_Fill>(ctx)){
             gfx->fillCircle(
             getValue<input_X>(ctx),
             getValue<input_Y>(ctx),

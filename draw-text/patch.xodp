@@ -1,4 +1,5 @@
 {
+  "description": "Draw text.",
   "nodes": [
     {
       "id": "rJnswhNd5",
@@ -46,7 +47,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Color of rectangle.",
+      "description": "Color of text.",
       "id": "rkm3iD3VOq",
       "label": "Color",
       "position": {
@@ -112,7 +113,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
-      "description": "Text string. Special characters can be specified using octal index. For example the degree symbol \"°\" (decimal code 248) can be specified using \"\\370\".",
+      "description": "Text string. ",
       "id": "rJIMOnE_9",
       "label": "Text",
       "position": {

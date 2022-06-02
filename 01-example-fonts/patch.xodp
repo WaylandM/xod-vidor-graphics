@@ -417,6 +417,7 @@
       "type": "@/draw-text"
     },
     {
+      "description": "Demonstration of fonts available in library. Displays all 16 fonts at size 2.",
       "id": "r1oqRKLBuc",
       "label": "GFX",
       "position": {
